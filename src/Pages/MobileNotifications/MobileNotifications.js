@@ -33,7 +33,8 @@ const MobileNotifications = (props) => {
           )}
         </div>
       ) : (
-        <h3>Loading...</h3>
+        <h2>Loading.....</h2>
+        
       )}
     </Auxiliary>
   );

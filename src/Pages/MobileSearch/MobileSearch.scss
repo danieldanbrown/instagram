@@ -13,16 +13,16 @@
                 margin: 0 auto;
                 height:30px;
                 input.search__input{
-                    padding: 10px 10px 10px 26px;
+                    padding: 20px 20px 20px 26px;
                 }
             }
             ul{
-                height: 100%;
-                overflow-y: auto;
-                overflow-x: hidden;
+                height: 80%;
+                overflow-y: 30px;
+                overflow-x: 200px;
                 padding: 0;
                 h4{
-                    text-align: center;
+                    text-align: right;
                     font-size: 19px;
                     font-weight: 600;
                 }
@@ -33,7 +33,7 @@
                     cursor: pointer;
                     .search--item--inner{
                         display:flex;
-                        align-items:center;
+                        align-items:right;
                         overflow: hidden;
                         .user--search--name{
                             font-size: 16px;
